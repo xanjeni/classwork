@@ -1,34 +1,35 @@
-/* Styling the navigation links */
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.nav-bar h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
 }
 
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav ul li a {
+/* Selecting links within the nav-bar */
+.nav-bar nav ul li a {
   text-decoration: none;
   color: #333;
-  transition: color 0.3s ease; /* Adding transition for smooth color change */
+  transition: color 0.3s ease;
 }
 
-/* Applying styles on hover */
-nav ul li a:hover {
+/* Applying hover effect to links within the nav-bar */
+.nav-bar nav ul li a:hover {
   color: blue;
 }
 
-/* Styling the first letter of the articles */
-article h3::first-letter {
-  font-size: 150%;
-  font-weight: bold;
-  color: #FF5733;
+/* Styling the content area */
+.content {
+  background-color: #f5f5f5;
+  padding: 20px;
 }
 
-/* Styling the first line of the articles */
-article p::first-line {
-  text-transform: uppercase;
+/* Styling the website link within the content */
+.content article a {
+  display: block;
+  margin-top: 10px;
+  color: #0066cc;
+}
+
+/* Styling the footer */
+.footer {
+  text-align: center;
+  margin-top: 20px;
 }
